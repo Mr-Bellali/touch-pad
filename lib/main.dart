@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:touche_pad/screens/search_screen.dart';
 import 'package:touche_pad/screens/touche_pad_screen.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TouchPad(),
+      home: SearchScreen(),
     );
   }
 }
